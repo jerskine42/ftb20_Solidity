@@ -82,22 +82,41 @@ To interact with your deployed smart contract, complete the following steps:
     > Dummy account1 address: 0x0c0669Cd5e60a6F4b8ce437E4a4A007093D368Cb
     > Dummy account2 address: 0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0
     > ```
+    * Transaction Entry![Picture](Execution_Results/3_1_01_setAccounts_a.png)  
+    * Transaction Result![Picture](Execution_Results/3_1_01_setAccounts_b.png)  
+
 
 2. Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the `contractBalance` function to verify that the funds were added to your contract:
 
     * Transaction 1: Send 1 ether as wei.
+        * Transaction Entry![Picture](Execution_Results/3_2_01_Trans1_a.png)  
+        * Transaction Result![Picture](Execution_Results/3_2_01_Trans1_b.png)  
 
     * Transaction 2: Send 10 ether as wei.
+        * Transaction Entry![Picture](Execution_Results/3_2_02_Trans2_a.png)  
+        * Transaction Result![Picture](Execution_Results/3_2_02_Trans2_b.png)  
+
 
     * Transaction 3: Send 5 ether.
+        * Transaction Entry![Picture](Execution_Results/3_2_03_Trans3_a.png)  
+        * Transaction Result![Picture](Execution_Results/3_2_03_Trans3_b.png)  
 
-    > **Note** Remembering how to convert ether to wei and vice versa can be challenging. So, you can use a website like [Ethereum Unit Converter](https://eth-converter.com/) to ease doing the conversion.
+
+    > **Note** Remembering how to convert ether to wei and vice versa can be challenging. So, you can use a website like [Ethereum Unit Converter](https://eth-converter.com/) to ease doing the conversion.![Picture](Execution_Results/3_2_00_Ethereum_Converter.png)
 
 3. Once you’ve successfully deposited funds into your contract, test the contract’s withdrawal functionality by:
-    * withdrawing 5 ether into `accountOne` 
-    * and 10 ether into `accountTwo`. 
-    * After each transaction, use the `contractBalance` function to verify that the funds were withdrawn from your contract. 
+     * After each transaction, use the `contractBalance` function to verify that the funds were withdrawn from your contract. 
     * Also, use the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amount were correct.
+
+    * Transaction 1: withdrawing 5 ether into `accountOne` 
+        * Transaction Entry![Picture](Execution_Results/3_3_01_Trans1_a.png)  
+        * Transaction Result![Picture](Execution_Results/3_3_01_Trans1_b.png)  
+
+
+    * Transaction 2: withdrawing 10 ether into `accountTwo`.
+        * Transaction Entry![Picture](Execution_Results/3_3_02_Trans2_a.png)  
+        * Transaction Result![Picture](Execution_Results/3_3_02_Trans2_b.png)  
+
 
 ---
 
