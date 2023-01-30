@@ -60,10 +60,13 @@ The steps for this homework are divided into the following sections:
 #### Step 2: Compile and Deploy Your Contract in the JavaScript VM
 
 1. Compile your smart contract. If an error occurs, review your code, and make the necessary changes for a successful compilation.
-
-2. In the Remix IDE, navigate to the “Deploy & Run Transactions” pane, and then make sure that “JavaScript VM” is selected as the environment.
+    ![Picture](images/2_1_01_Compiled.png)  
+2. In the Remix IDE, navigate to the “Deploy & Run Transactions” pane, and then make sure that “JavaScript VM” is selected as the environment.   
+    Note: “JavaScript VM” has been renamed to that “Remix VM (London)” 
+    ![Picture](images/2_2_01_Deploy_Run.png)  
 
 3. Click the Deploy button to deploy your smart contract, and then confirm that it successfully deployed.
+    ![Picture](images/2_3_01_Deployed.png)  
 
 #### Step 3: Interact with Your Deployed Smart Contract
 
